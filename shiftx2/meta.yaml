@@ -1,0 +1,15 @@
+package:
+  name: shiftx2
+  version: 1.0.7
+
+source:
+  url: http://www.shiftx2.ca/download/shiftx2-v107-linux-20120106.tgz
+  fn: shiftx2-v107-linux-20120106.tgz
+
+requirements:
+  run:
+    - python
+
+test:
+  commands:
+    - shiftx2.py -h
